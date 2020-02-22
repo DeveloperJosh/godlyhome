@@ -1,0 +1,2 @@
+- name: Setup SSH
+  uses: kielabokkie/ssh-key-and-known-hosts-action@v1.0.1
