@@ -1,2 +1,4 @@
-- name: Setup SSH
-  uses: kielabokkie/ssh-key-and-known-hosts-action@v1.0.1
+uses: DeveloperJosh/godlyhome
+with:
+  ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+  ssh-host: server.godlymc.com
