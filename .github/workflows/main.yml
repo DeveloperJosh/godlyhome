@@ -1,4 +1,0 @@
-uses: DeveloperJosh/godlyhome
-with:
-  ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-  ssh-host: server.godlymc.com
