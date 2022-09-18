@@ -17,6 +17,6 @@ app.get('/about', (req, res) => {
     res.sendFile(path.join(__dirname, 'pages', 'about.html'));
 });
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log(`App listening at http://localhost:${port}`);
 });

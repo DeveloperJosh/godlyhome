@@ -1,5 +1,63 @@
 body {
-  background-color: black;
+  background-color: rgb(109, 94, 94);
+}
+
+.nav-bar {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  background-color: #1e1e1e;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.text-white {
+  color: white;
+}
+
+.display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.animate-top {
+  position: relative;
+  -webkit-animation: animate-top 0.4s;
+  animation: animate-top 0.4s
+}
+
+.border-grey {
+  border-color: #f1f1f1;
+}
+
+.large {
+  font-size: 20px;
+}
+
+.jumbo {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+@-webkit-keyframes animate-top {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
+
+@keyframes animate-top {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
 }
 
 .card {
